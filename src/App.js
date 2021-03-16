@@ -189,8 +189,8 @@ function App() {
 
         {user.isSignedIn && (
           <div className="user-info">
-            <h1>Name: {user.name}</h1>
-            <h3>Email: {user.email}</h3>
+            <h1>Your Name: {user.name}</h1>
+            <h3>Your Email: {user.email}</h3>
             <button className="button sign-out" onClick={handleSignOut}>
               Sign Out
             </button>
